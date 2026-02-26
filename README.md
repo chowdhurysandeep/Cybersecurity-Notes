@@ -28,11 +28,11 @@ Cybersecurity-Notes/
 │   └── Netcat.md
 │
 └── Web-Security/
-│   ├── CSRF.md
-│   ├── File-Inclusion.md
-│   ├── SQLi.md
-│   ├── SSRF.md
-│   └── XSS.md
+    ├── CSRF.md
+    ├── File-Inclusion.md
+    ├── SQLi.md
+    ├── SSRF.md
+    └── XSS.md
     
     
     

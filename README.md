@@ -7,12 +7,10 @@ A structured collection of cybersecurity notes covering web security, network se
 ```
 Cybersecurity-Notes/
 │
-├── Web-Security/
-│   ├── XSS.md
-│   ├── SQLi.md
-│   ├── SSRF.md
-│   ├── File-Inclusion.md
-│   └── CSRF.md
+├── Cheatsheets/                            
+│   ├── Nmap.md                            
+│   ├── BurpSuite.md                            
+│   └── Linux-Commands.md                                                                                         
 │
 ├── Network-Security/
 │   ├── TCP-Handshake.md
@@ -29,10 +27,15 @@ Cybersecurity-Notes/
 │   ├── Python.md
 │   └── Netcat.md
 │
-└── Cheatsheets/
-    ├── Nmap.md
-    ├── BurpSuite.md
-    └── Linux-Commands.md
+└── Web-Security/
+│   ├── CSRF.md
+│   ├── File-Inclusion.md
+│   ├── SQLi.md
+│   ├── SSRF.md
+│   └── XSS.md
+    
+    
+    
 ```
 
 ## 📚 Topics Covered

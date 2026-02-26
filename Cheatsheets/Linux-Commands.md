@@ -7,22 +7,22 @@ A reference for Linux commands commonly used in penetration testing and CTFs.
 ## Navigation & File Management
 
 ```bash
-pwd                    # Print working directory
-ls -la                 # List all files with permissions
-cd /path/to/dir        # Change directory
-cd -                   # Go back to previous directory
-find / -name "*.conf" 2>/dev/null    # Find files by name
-find / -perm -4000 2>/dev/null       # Find SUID files
-find / -writable -type f 2>/dev/null # Find writable files
-locate filename        # Fast file search (uses database)
-which binary           # Find binary path
-whereis binary         # Find binary + man page
+pwd                                   # Print working directory
+ls -la                                # List all files with permissions
+cd /path/to/dir                       # Change directory
+cd -                                  # Go back to previous directory
+find / -name "*.conf" 2>/dev/null     # Find files by name
+find / -perm -4000 2>/dev/null        # Find SUID files
+find / -writable -type f 2>/dev/null  # Find writable files
+locate filename                       # Fast file search (uses database)
+which binary                          # Find binary path
+whereis binary                        # Find binary + man page
 
-cp file dest           # Copy file
-mv file dest           # Move/rename file
-rm -rf dir             # Recursively remove directory
-mkdir -p path/to/dir   # Create nested directories
-ln -s target linkname  # Create symbolic link
+cp file dest                          # Copy file
+mv file dest                          # Move/rename file
+rm -rf dir                            # Recursively remove directory
+mkdir -p path/to/dir                  # Create nested directories
+ln -s target linkname                 # Create symbolic link
 ```
 
 ---
@@ -30,19 +30,19 @@ ln -s target linkname  # Create symbolic link
 ## File Content
 
 ```bash
-cat file               # Display file content
-less file              # Paginate through file
-head -n 20 file        # First 20 lines
-tail -n 20 file        # Last 20 lines
-tail -f file           # Follow file (live updates — great for logs)
-grep "pattern" file    # Search for pattern
-grep -r "pattern" dir/ # Recursive search
-grep -i "pattern" file # Case-insensitive
-grep -v "pattern" file # Invert match (exclude)
-grep -n "pattern" file # Show line numbers
-strings file           # Extract printable strings from binary
-xxd file               # Hex dump
-od -A x -t x1z file    # Hex dump (alternate)
+cat file                # Display file content
+less file               # Paginate through file
+head -n 20 file         # First 20 lines
+tail -n 20 file         # Last 20 lines
+tail -f file            # Follow file (live updates — great for logs)
+grep "pattern" file     # Search for pattern
+grep -r "pattern" dir/  # Recursive search
+grep -i "pattern" file  # Case-insensitive
+grep -v "pattern" file  # Invert match (exclude)
+grep -n "pattern" file  # Show line numbers
+strings file            # Extract printable strings from binary
+xxd file                # Hex dump
+od -A x -t x1z file     # Hex dump (alternate)
 ```
 
 ---
